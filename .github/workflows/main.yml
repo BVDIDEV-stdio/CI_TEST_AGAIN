@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: CHECK PROJECT CODE STYLE
+      - name: CHECK PROJECT CODE STYLE (commit trigger)
         run: |
           sudo apt update
           sudo apt install python3-pip -y
